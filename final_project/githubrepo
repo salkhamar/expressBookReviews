@@ -1,2 +1,2 @@
-origin  https://github.com/salkhamar/expressBookReviews.git (fetch)
-origin  https://github.com/salkhamar/expressBookReviews.git (push)
+$ curl -s https://api.github.com/repos/salkhamar/expressBookReviews | jq '.parent.full_name'
+"ibm-developer-skills-network/expressBookReviews"

@@ -1,6 +1,4 @@
-public unauthenticated users route
----------------------------------------
-curl http://localhost:5000/
+$ curl -X GET http://localhost:5000/
 {
     "1": {
         "author": "Chinua Achebe",
@@ -53,4 +51,3 @@ curl http://localhost:5000/
         "reviews": {}
     }
 }
-

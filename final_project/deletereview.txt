@@ -1,5 +1,5 @@
-curl -X DELETE http://localhost:5000/customer/auth/review/1 -b cookies.txt
-Reviews for the ISBN 1 posted by the user testuser deleted.
+$ curl -X DELETE "http://localhost:5000/auth/review/1" -b cookies.txt
+{"message":"Reviews for the ISBN 1 posted by the user testuser deleted."}
 
-curl http://localhost:5000/review/1
+$ curl -X GET http://localhost:5000/review/1
 {}
