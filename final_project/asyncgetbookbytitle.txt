@@ -1,0 +1,8 @@
+curl http://localhost:5000/title/Pride%20and%20Prejudice
+[
+    {
+        "author": "Jane Austen",
+        "title": "Pride and Prejudice",
+        "reviews": {}
+    }
+]
